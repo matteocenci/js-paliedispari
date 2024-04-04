@@ -1,9 +1,12 @@
 
 function isPari(sumNumbers) {
+    let check;
     if (sumNumbers / 2 !== 0) {
-        return false;
+        check = false;
     } else {
-        return true;
+        check = true;
     }
+
+    return check;
 }
 

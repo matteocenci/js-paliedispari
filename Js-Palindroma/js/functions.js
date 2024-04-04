@@ -1,13 +1,19 @@
 function isPalindroma(word) {
+    let word = prompt("Dammi una parola: ");
+    console.log(word);
+    let wordSplit = word.split('');
+    console.log(wordSplit);
+    let resultWord;
     
-    for(let i = 0; i < word.length / 2; i++ ) {
-        if (word[i] !== word[word.length === 1 - i] ) {
-            return false;
+    for(let i = 0; i < word.length; i++ ) {
+        if (word[i] === word[word.length - i] ) {
+            resultWord = true;
         }
         
+        resultWord = false;
     }
 
-    return true;
+    return resultWord;
 }
 
 

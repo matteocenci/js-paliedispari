@@ -1,14 +1,5 @@
-const word = prompt("dammi una parola: ");
-let wordDivided = word.split('');
-
-console.log(wordDivided);
-
-if(isPalindroma(word)) {
-    alert("Si")
-} else {
-    alert("No")
-}
-
+let resultPalindroma = isPalindroma;
+console.log(resultPalindroma);
 
 
 // for
