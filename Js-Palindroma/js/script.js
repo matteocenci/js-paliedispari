@@ -3,6 +3,12 @@ let wordDivided = word.split('');
 
 console.log(wordDivided);
 
+if(isPalindroma(word)) {
+    alert("Si")
+} else {
+    alert("No")
+}
+
 
 
 // for

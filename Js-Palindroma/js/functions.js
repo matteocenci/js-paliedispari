@@ -1,7 +1,7 @@
 function isPalindroma(word) {
     
-    for(let i = 0; i < word.length; i++ ) {
-        if (word[i] === word[word.length === i - 1] ) {
+    for(let i = 0; i < word.length / 2; i++ ) {
+        if (word[i] !== word[word.length === 1 - i] ) {
             return false;
         }
         
@@ -10,7 +10,6 @@ function isPalindroma(word) {
     return true;
 }
 
-console.log(word + isPalindroma(word));
 
 
 // 1 2 3 4 5
